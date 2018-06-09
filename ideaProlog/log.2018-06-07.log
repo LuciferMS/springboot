@@ -1,0 +1,120 @@
+2018-06-07 22:10:01.201 [main] INFO  com.springbootpro.ssm.SsmApplication - Starting SsmApplication on DESKTOP-ENODUB5 with PID 33252 (G:\ideaPro\springbootssm\target\classes started by Elliot in G:\ideaPro\springbootssm)
+2018-06-07 22:10:01.204 [main] INFO  com.springbootpro.ssm.SsmApplication - No active profile set, falling back to default profiles: default
+2018-06-07 22:10:01.258 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1460a8c0: startup date [Thu Jun 07 22:10:01 CST 2018]; root of context hierarchy
+2018-06-07 22:10:01.301 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final
+2018-06-07 22:10:01.349 [main] INFO  c.s.s.c.s.c.d.DynamicDataSourceRegister - 初始化数据源环境...
+2018-06-07 22:10:01.350 [main] INFO  c.s.s.c.s.c.d.DynamicDataSourceRegister - 加载主数据源....
+2018-06-07 22:10:01.390 [main] INFO  c.s.s.c.s.c.d.DynamicDataSourceRegister - 主数据源加载完毕...
+2018-06-07 22:10:01.390 [main] INFO  c.s.s.c.s.c.d.DynamicDataSourceRegister - 加载更多数据源...
+2018-06-07 22:10:01.390 [main] INFO  c.s.s.c.s.c.d.DynamicDataSourceRegister - 初始化数据源:ds1
+2018-06-07 22:10:01.396 [main] INFO  c.s.s.c.s.c.d.DynamicDataSourceRegister - 初始化ds1完毕
+2018-06-07 22:10:01.396 [main] INFO  c.s.s.c.s.c.d.DynamicDataSourceRegister - 初始化数据源:ds2
+2018-06-07 22:10:01.401 [main] INFO  c.s.s.c.s.c.d.DynamicDataSourceRegister - 初始化ds2完毕
+2018-06-07 22:10:01.401 [main] INFO  c.s.s.c.s.c.d.DynamicDataSourceRegister - 更多数据源加载完毕
+2018-06-07 22:10:01.402 [main] INFO  c.s.s.c.s.c.d.DynamicDataSourceRegister - 初始化完毕...
+2018-06-07 22:10:01.715 [main] INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2018-06-07 22:10:01.935 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$75a4ae3e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-07 22:10:02.269 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 10086 (http)
+2018-06-07 22:10:02.276 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2018-06-07 22:10:02.277 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.0.32
+2018-06-07 22:10:02.338 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-06-07 22:10:02.338 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1080 ms
+2018-06-07 22:10:02.959 [localhost-startStop-1] INFO  o.s.boot.context.embedded.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2018-06-07 22:10:02.961 [localhost-startStop-1] INFO  o.s.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-07 22:10:02.961 [localhost-startStop-1] INFO  o.s.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-07 22:10:02.961 [localhost-startStop-1] INFO  o.s.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-07 22:10:02.961 [localhost-startStop-1] INFO  o.s.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-07 22:10:03.182 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1460a8c0: startup date [Thu Jun 07 22:10:01 CST 2018]; root of context hierarchy
+2018-06-07 22:10:03.242 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Hello]}" onto java.lang.String com.springbootpro.ssm.SsmApplication.home()
+2018-06-07 22:10:03.243 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/log/user]}" onto java.lang.String com.springbootpro.ssm.com.springbootssm.app.LogController.home()
+2018-06-07 22:10:03.243 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user]}" onto java.lang.String com.springbootpro.ssm.com.springbootssm.app.TestController.home()
+2018-06-07 22:10:03.245 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-07 22:10:03.245 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-07 22:10:03.290 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-07 22:10:03.290 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-07 22:10:03.324 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-07 22:10:03.654 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-06-07 22:10:03.667 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10086"]
+2018-06-07 22:10:03.669 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10086"]
+2018-06-07 22:10:03.677 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-06-07 22:10:03.686 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 10086 (http)
+2018-06-07 22:10:03.689 [main] INFO  com.springbootpro.ssm.SsmApplication - Started SsmApplication in 2.634 seconds (JVM running for 3.338)
+2018-06-07 22:10:40.742 [http-nio-10086-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-07 22:10:40.742 [http-nio-10086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-06-07 22:10:40.759 [http-nio-10086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+2018-06-07 22:10:40.938 [http-nio-10086-exec-1] INFO  c.s.s.c.s.c.d.DynamicDataSourceAspect - 使用数据源 : {} > {} 
+ds2User com.springbootpro.ssm.com.springbootssm.service.ITestUserService.getUserInTestDB()
+2018-06-07 22:10:40.980 [http-nio-10086-exec-1] INFO  c.s.s.c.s.c.d.DynamicDataSourceAspect - 该数据源已使用完毕,正在销毁....
+2018-06-07 22:10:40.980 [http-nio-10086-exec-1] INFO  c.s.s.c.s.c.d.DynamicDataSourceAspect - 销毁完毕...
+2018-06-07 22:10:40.981 [http-nio-10086-exec-1] INFO  c.s.s.c.s.c.d.DynamicDataSourceAspect - 使用数据源 : {} > {} 
+ds1User com.springbootpro.ssm.com.springbootssm.service.ITestUserService.saveUserInMall()
+2018-06-07 22:10:41.010 [http-nio-10086-exec-1] INFO  c.s.s.c.s.c.d.DynamicDataSourceAspect - 该数据源已使用完毕,正在销毁....
+2018-06-07 22:10:41.010 [http-nio-10086-exec-1] INFO  c.s.s.c.s.c.d.DynamicDataSourceAspect - 销毁完毕...
+2018-06-07 22:10:41.044 [http-nio-10086-exec-2] INFO  c.s.s.c.s.c.d.DynamicDataSourceAspect - 使用数据源 : {} > {} 
+ds2User com.springbootpro.ssm.com.springbootssm.service.ITestUserService.getUserInTestDB()
+2018-06-07 22:10:41.047 [http-nio-10086-exec-2] INFO  c.s.s.c.s.c.d.DynamicDataSourceAspect - 该数据源已使用完毕,正在销毁....
+2018-06-07 22:10:41.048 [http-nio-10086-exec-2] INFO  c.s.s.c.s.c.d.DynamicDataSourceAspect - 销毁完毕...
+2018-06-07 22:10:41.048 [http-nio-10086-exec-2] INFO  c.s.s.c.s.c.d.DynamicDataSourceAspect - 使用数据源 : {} > {} 
+ds1User com.springbootpro.ssm.com.springbootssm.service.ITestUserService.saveUserInMall()
+2018-06-07 22:10:41.050 [http-nio-10086-exec-2] INFO  c.s.s.c.s.c.d.DynamicDataSourceAspect - 该数据源已使用完毕,正在销毁....
+2018-06-07 22:10:41.050 [http-nio-10086-exec-2] INFO  c.s.s.c.s.c.d.DynamicDataSourceAspect - 销毁完毕...
+2018-06-07 22:12:56.307 [main] INFO  com.springbootpro.ssm.SsmApplication - Starting SsmApplication on DESKTOP-ENODUB5 with PID 41972 (G:\ideaPro\springbootssm\target\classes started by Elliot in G:\ideaPro\springbootssm)
+2018-06-07 22:12:56.310 [main] INFO  com.springbootpro.ssm.SsmApplication - No active profile set, falling back to default profiles: default
+2018-06-07 22:12:56.346 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1460a8c0: startup date [Thu Jun 07 22:12:56 CST 2018]; root of context hierarchy
+2018-06-07 22:12:56.391 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final
+2018-06-07 22:12:56.417 [main] INFO  c.s.s.c.s.c.d.DynamicDataSourceRegister - 初始化数据源环境...
+2018-06-07 22:12:56.417 [main] INFO  c.s.s.c.s.c.d.DynamicDataSourceRegister - 加载主数据源....
+2018-06-07 22:12:56.451 [main] INFO  c.s.s.c.s.c.d.DynamicDataSourceRegister - 主数据源加载完毕...
+2018-06-07 22:12:56.451 [main] INFO  c.s.s.c.s.c.d.DynamicDataSourceRegister - 加载更多数据源...
+2018-06-07 22:12:56.451 [main] INFO  c.s.s.c.s.c.d.DynamicDataSourceRegister - 初始化数据源:ds1
+2018-06-07 22:12:56.459 [main] INFO  c.s.s.c.s.c.d.DynamicDataSourceRegister - 初始化ds1完毕
+2018-06-07 22:12:56.459 [main] INFO  c.s.s.c.s.c.d.DynamicDataSourceRegister - 初始化数据源:ds2
+2018-06-07 22:12:56.465 [main] INFO  c.s.s.c.s.c.d.DynamicDataSourceRegister - 初始化ds2完毕
+2018-06-07 22:12:56.466 [main] INFO  c.s.s.c.s.c.d.DynamicDataSourceRegister - 更多数据源加载完毕
+2018-06-07 22:12:56.466 [main] INFO  c.s.s.c.s.c.d.DynamicDataSourceRegister - 初始化完毕...
+2018-06-07 22:12:56.886 [main] INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2018-06-07 22:12:57.158 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$75a4ae3e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-07 22:12:57.513 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 10086 (http)
+2018-06-07 22:12:57.519 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2018-06-07 22:12:57.519 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.0.32
+2018-06-07 22:12:57.577 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-06-07 22:12:57.577 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1231 ms
+2018-06-07 22:12:58.221 [localhost-startStop-1] INFO  o.s.boot.context.embedded.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2018-06-07 22:12:58.223 [localhost-startStop-1] INFO  o.s.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-07 22:12:58.224 [localhost-startStop-1] INFO  o.s.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-07 22:12:58.224 [localhost-startStop-1] INFO  o.s.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-07 22:12:58.224 [localhost-startStop-1] INFO  o.s.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-07 22:12:58.452 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1460a8c0: startup date [Thu Jun 07 22:12:56 CST 2018]; root of context hierarchy
+2018-06-07 22:12:58.526 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Hello]}" onto java.lang.String com.springbootpro.ssm.SsmApplication.home()
+2018-06-07 22:12:58.527 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/log/user]}" onto java.lang.String com.springbootpro.ssm.com.springbootssm.app.LogController.home()
+2018-06-07 22:12:58.527 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user]}" onto java.lang.String com.springbootpro.ssm.com.springbootssm.app.TestController.home()
+2018-06-07 22:12:58.529 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-07 22:12:58.530 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-07 22:12:58.581 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-07 22:12:58.581 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-07 22:12:58.613 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-07 22:12:58.967 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-06-07 22:12:58.984 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10086"]
+2018-06-07 22:12:58.989 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10086"]
+2018-06-07 22:12:58.999 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-06-07 22:12:59.014 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 10086 (http)
+2018-06-07 22:12:59.017 [main] INFO  com.springbootpro.ssm.SsmApplication - Started SsmApplication in 2.863 seconds (JVM running for 3.592)
+2018-06-07 22:13:03.101 [http-nio-10086-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-07 22:13:03.101 [http-nio-10086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-06-07 22:13:03.117 [http-nio-10086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+2018-06-07 22:13:03.294 [http-nio-10086-exec-1] INFO  c.s.s.c.s.c.d.DynamicDataSourceAspect - 使用数据源 : {} > {} 
+ds2User com.springbootpro.ssm.com.springbootssm.service.ITestUserService.getUserInTestDB()
+2018-06-07 22:13:03.322 [http-nio-10086-exec-1] INFO  c.s.s.c.s.c.d.DynamicDataSourceAspect - 该数据源已使用完毕,正在销毁....
+2018-06-07 22:13:03.323 [http-nio-10086-exec-1] INFO  c.s.s.c.s.c.d.DynamicDataSourceAspect - 销毁完毕...
+2018-06-07 22:13:03.324 [http-nio-10086-exec-1] INFO  c.s.s.c.s.c.d.DynamicDataSourceAspect - 使用数据源 : {} > {} 
+ds1User com.springbootpro.ssm.com.springbootssm.service.ITestUserService.saveUserInMall()
+2018-06-07 22:13:03.352 [http-nio-10086-exec-1] INFO  c.s.s.c.s.c.d.DynamicDataSourceAspect - 该数据源已使用完毕,正在销毁....
+2018-06-07 22:13:03.353 [http-nio-10086-exec-1] INFO  c.s.s.c.s.c.d.DynamicDataSourceAspect - 销毁完毕...
+2018-06-07 22:13:03.383 [http-nio-10086-exec-2] INFO  c.s.s.c.s.c.d.DynamicDataSourceAspect - 使用数据源 : {} > {} 
+ds2User com.springbootpro.ssm.com.springbootssm.service.ITestUserService.getUserInTestDB()
+2018-06-07 22:13:03.385 [http-nio-10086-exec-2] INFO  c.s.s.c.s.c.d.DynamicDataSourceAspect - 该数据源已使用完毕,正在销毁....
+2018-06-07 22:13:03.385 [http-nio-10086-exec-2] INFO  c.s.s.c.s.c.d.DynamicDataSourceAspect - 销毁完毕...
+2018-06-07 22:13:03.386 [http-nio-10086-exec-2] INFO  c.s.s.c.s.c.d.DynamicDataSourceAspect - 使用数据源 : {} > {} 
+ds1User com.springbootpro.ssm.com.springbootssm.service.ITestUserService.saveUserInMall()
+2018-06-07 22:13:03.387 [http-nio-10086-exec-2] INFO  c.s.s.c.s.c.d.DynamicDataSourceAspect - 该数据源已使用完毕,正在销毁....
+2018-06-07 22:13:03.388 [http-nio-10086-exec-2] INFO  c.s.s.c.s.c.d.DynamicDataSourceAspect - 销毁完毕...
