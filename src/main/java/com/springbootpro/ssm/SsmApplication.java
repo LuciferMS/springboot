@@ -3,6 +3,8 @@ package com.springbootpro.ssm;
 import com.springbootpro.ssm.com.springbootssm.config.dataSourceConfig.DynamicDataSourceRegister;
 import com.springbootpro.ssm.com.springbootssm.pojo.User;
 import com.springbootpro.ssm.com.springbootssm.service.ITestUserService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -21,11 +23,14 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableAutoConfiguration
 public class SsmApplication extends SpringBootServletInitializer{
 
+	private static final Logger log = LoggerFactory.getLogger(SsmApplication.class);
+
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
 		return builder.sources(SsmApplication.class);
 	}
 
 	public static void main(String[] args) {
+		log.info("project init");
 		SpringApplication.run(SsmApplication.class, args);
 	}
 }

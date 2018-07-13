@@ -20,6 +20,10 @@ import javax.sql.DataSource;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * 数据源注册类
+ * 下一步封装，使用@Configration注解来
+ */
 public class DynamicDataSourceRegister implements ImportBeanDefinitionRegistrar, EnvironmentAware {
 
 
@@ -33,9 +37,7 @@ public class DynamicDataSourceRegister implements ImportBeanDefinitionRegistrar,
 
 
     // 默认数据源
-
     private DataSource defaultDataSource;
-
 
     private Map<String, DataSource> customDataSources = new HashMap<String, DataSource>();
 
@@ -43,9 +45,7 @@ public class DynamicDataSourceRegister implements ImportBeanDefinitionRegistrar,
     /**
      * 加载多数据源配置
      */
-
     @Override
-
     public void setEnvironment(Environment environment) {
         log.info("初始化数据源环境...");
         initDefaultDataSource(environment);
@@ -87,8 +87,8 @@ public class DynamicDataSourceRegister implements ImportBeanDefinitionRegistrar,
     private void initCustomDataSources(Environment env) {
         // 读取配置文件获取更多数据源，也可以通过defaultDataSource读取数据库获取更多数据源
         log.info("加载更多数据源...");
-        RelaxedPropertyResolver propertyResolver = new RelaxedPropertyResolver(env, "custom.datasource.");
-        String dsPrefixs = propertyResolver.getProperty("names");
+        RelaxedPropertyResolver propertyResolver = new RelaxedPropertyResolver(env, "custom.datasource.");//读取以custom.datasource为前缀的内容
+        String dsPrefixs = propertyResolver.getProperty("names");//读取names属性的值
         for (String dsPrefix : dsPrefixs.split(",")) {// 多个数据源
             log.info("初始化数据源:" + dsPrefix);
             Map<String, Object> dsMap = propertyResolver.getSubProperties(dsPrefix + ".");
@@ -132,12 +132,11 @@ public class DynamicDataSourceRegister implements ImportBeanDefinitionRegistrar,
 
 
     /**
-     * 为DataSource绑定更多数据
+     * 为DataSource绑定更多数据源
      *
      * @param dataSource
      * @param env
      */
-
     private void dataBinder(DataSource dataSource, Environment env) {
         RelaxedDataBinder dataBinder = new RelaxedDataBinder(dataSource);
         dataBinder.setConversionService(conversionService);
@@ -160,7 +159,6 @@ public class DynamicDataSourceRegister implements ImportBeanDefinitionRegistrar,
 
 
     @Override
-
     public void registerBeanDefinitions(AnnotationMetadata importingClassMetadata, BeanDefinitionRegistry registry) {
         System.out.println("DynamicDataSourceRegister.registerBeanDefinitions()");
         Map<Object, Object> targetDataSources = new HashMap<Object, Object>();

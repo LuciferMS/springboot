@@ -13,7 +13,6 @@ public class DynamicDataSourceContextHolder {
      * 使用setDataSourceType设置当前的
      * @param dataSourceType
      */
-
     public static void setDataSourceType(String dataSourceType) {
         contextHolder.set(dataSourceType);
     }
@@ -39,9 +38,7 @@ public class DynamicDataSourceContextHolder {
      * @return
      * @author
      * @create
-
      */
-
     public static boolean containsDataSource(String dataSourceId){
         return dataSourceIds.contains(dataSourceId);
     }
